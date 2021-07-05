@@ -7,7 +7,7 @@ const home=  {
   path: "/home/main",
   name: "首页",
   sort:1,
-  component:lazy(()=>import("../../view/home/index")),
+  component:lazy(()=>import("../../view/Edit/index")),
   meta: {
     auth: true,
     title: "首页",

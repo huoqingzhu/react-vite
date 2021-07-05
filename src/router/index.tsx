@@ -10,12 +10,11 @@ export default  () => {
   useEffect(()=>{
     if(!isLoading){
       console.log("没有登录")
-      History.push({pathname:"/login",state:{id:3}})
+      // History.push({pathname:"/login",state:{id:3}})
     }
   },[isLoading])
   return (
     <Router>
-    <Head></Head>
       <Suspense fallback={<div>Loading...</div>}>
       <Switch>
           {routerList.map((item:any)=>{
