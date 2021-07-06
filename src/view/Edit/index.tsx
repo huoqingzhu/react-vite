@@ -1,7 +1,6 @@
 import React, { useState,useEffect} from 'react'
 import {article} from "../../api/apis"
 import Draw from "./drawing/index"
-import Word from "./word/index"
 import Header from "./header/index"
 import  "./index.less"
 /**
@@ -22,7 +21,6 @@ const Home:React.FC<{ initial: number }> = ({ initial = 0 }) => {
     <div className="edit">
       <Header title="我是导航栏" />
       <Draw title="我是画布" />
-      <Word title="我是侧边栏" />
     </div>
   )
 }

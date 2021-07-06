@@ -1,10 +1,9 @@
 import { useHistory,useLocation,useRouteMatch} from 'react-router-dom';
-import { useSelector , useDispatch} from 'react-redux'
+import {  useDispatch} from 'react-redux'
 import React from 'react';
 import { Button } from 'antd';
 
 const Login=()=>{
-  const count = useSelector((state:{count:number})=>state.count)
   const dispatch = useDispatch()
   let history = useHistory();
   const {state}=useLocation()

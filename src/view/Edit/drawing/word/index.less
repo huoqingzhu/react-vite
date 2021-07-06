@@ -1,0 +1,26 @@
+.word {
+  position: absolute;
+  width: 300px;
+  height: 100%;
+  right: 0px;
+  top: 0px;
+  background-color: pink;
+  animation: mymove 0.5s;
+}
+@keyframes mymove {
+  from {
+    right: -300px;
+  }
+  to {
+    right: 0px;
+  }
+}
+
+@-webkit-keyframes mymove /*Safari and Chrome*/ {
+  from {
+    right: -300px;
+  }
+  to {
+    right: 0px;
+  }
+}
