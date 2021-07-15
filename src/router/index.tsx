@@ -1,7 +1,6 @@
  // routes/index.jsx
 import React,{Suspense,lazy,useEffect,useContext}from 'react'
 import { HashRouter as Router, Route, Switch, Redirect,useHistory} from 'react-router-dom'
-import Head from '../components/head/head'//导航栏
 import { useSelector} from 'react-redux'
 import routerList from "./cofing"
 export default  () => {

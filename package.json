@@ -6,6 +6,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.6.2",
     "antd": "^4.16.3",
     "axios": "^0.21.1",
     "less": "^4.1.1",
