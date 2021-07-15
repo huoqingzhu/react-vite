@@ -1,11 +1,17 @@
-# react+vite+ts+antd
+# 拖拽编辑器基础
 
-## 配置好基本开发项
+## 已实现功能
 
-* react-router-dom
-* redux
-* axios
-* antd
+* 位置拖拽
+* 放大缩小
+
+## 未实现功能
+
+* 栅格吸附
+* 右击菜单
+* 组合
+* 删除
+* 复制
 
 ## npm run dev 启动
 
