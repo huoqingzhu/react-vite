@@ -10,7 +10,12 @@ const header:React.FC<{title:string}>=({title="我是头部"})=>{
     return (
       <div className="edit-header flex-between">
         <Icon type="icon-React" style={{fontSize:"33px"}} />
-        <Button onClick={()=>dispatch({type:"showWord"})}>编辑</Button>
+        <div>
+          {/* <Button onClick={()=>dispatch({type:"showWord"})}>编辑</Button> */}
+        <a>
+        <Icon type="icon-github" style={{fontSize:"24px",margin:'20px'}} />
+        </a>
+        </div>
       </div>
     )
 }
